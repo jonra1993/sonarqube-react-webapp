@@ -1,7 +1,7 @@
 # Description
 
 
-This project has been created as part of this [medium post](https://medium.com/jrtec/static-analysis-using-sonarqube-in-a-react-webapp-dd4b335d6062") as a way to run a static analysis for a React webapp. It can be usefull in any node project too.
+This project has been created as part of this [medium post](https://medium.com/jrtec/static-analysis-using-sonarqube-in-a-react-webapp-dd4b335d6062) as a way to run a static analysis for a React webapp. It can be usefull in any node project too.
 
 
 # Installation
@@ -23,12 +23,10 @@ docker-compose up
 
 # Setup SonarQube project
 
-You can find more instruction on how to acomplish this in my post [here](https://medium.com/jrtec/static-analysis-using-sonarqube-in-a-react-webapp-dd4b335d6062")
+You can find more instruction on how to acomplish this in my post [here](https://medium.com/jrtec/static-analysis-using-sonarqube-in-a-react-webapp-dd4b335d6062)
 
 
 # Run Scan
-
-You can find more instruction on how to acomplish this in my post [here](https://medium.com/jrtec/static-analysis-using-sonarqube-in-a-react-webapp-dd4b335d6062")
 
 ```
 yarn sonar
