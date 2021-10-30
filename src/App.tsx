@@ -3,6 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  const getRandomInt = (min: number, max: number) => {
+    return Math.floor(Math.random() * (max - min)) + min;
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -16,7 +21,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React {getRandomInt(4, 20)}
         </a>
       </header>
     </div>

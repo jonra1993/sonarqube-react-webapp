@@ -3,7 +3,7 @@ const scanner = require('sonarqube-scanner');
 scanner(
     {
         serverUrl: 'http://localhost:9000',
-        token: "e838dd064de0e78c5c39bcbb23aeb758353944ca",
+        token: "a06ee6f07bc8fead7b8081b0a3c89ec993ddc3b0",
         options: {
             'sonar.projectName': 'sonarqube-react-project',
             'sonar.projectDescription': 'Here I can add a description of my project',
