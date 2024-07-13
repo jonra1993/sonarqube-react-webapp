@@ -1,4 +1,4 @@
-const scanner = require('sonarqube-scanner');
+const scanner = require('sonarqube-scanner').default;
 
 scanner(
     {
@@ -13,5 +13,10 @@ scanner(
             'sonar.sourceEncoding': 'UTF-8',
         }
     },
-    () => process.exit()
+    error => {
+        if (error) {
+            console.error(error);
+        }
+        process.exit();
+    },
 )
